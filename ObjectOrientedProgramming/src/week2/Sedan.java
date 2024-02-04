@@ -11,6 +11,7 @@ public class Sedan {
 	public int doors;
 	public double horsepower;
 	public String engine_type;  // come back later
+	char tea = 't';
 	
 	// 1.2 constructor
 	public Sedan(int doors, double horsepower, String engine_type) {
@@ -29,6 +30,11 @@ public class Sedan {
 	public int getWheels() {
 		return this.wheels;
 	}
+	
+	public void printWheels() {
+		System.out.println(this.wheels);
+	}
+	
 	
 	public String getSummary() {
 		return "wheels->" + this.wheels + " doors->" + this.doors + " HP->" + this.horsepower + " engine->" + this.engine_type;
