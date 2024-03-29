@@ -4,7 +4,7 @@ import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class SportResult {
+public class SportResult {
 
 	public enum Result {
 		TEAM1WIN, TEAM2WIN, DRAW, CANCELED
